@@ -1,0 +1,13 @@
+.app__pagination {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+
+    svg {
+        border: 2px solid #0303ff;
+        color: #0303ff;
+        border-radius: 3px;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+}

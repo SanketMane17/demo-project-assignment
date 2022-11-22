@@ -1,0 +1,47 @@
+.app__table {
+    margin-bottom: 20px;
+
+    #customers {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        font-family: poppins;
+
+        @media screen and (max-width: 800px) {
+            display: block;
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+    }
+
+    #customers td,
+    #customers th {
+        padding: 6px;
+        font-size: 14px;
+    }
+
+    #customers th {
+        border-right: 1px solid #ddd;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: left;
+        background-color: #f6f5f6;
+        color: #666178;
+    }
+
+    #customers td {
+        border-bottom: 1px solid #ececed;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        color: gray;
+        padding: 10px 5px;
+    }
+
+    .loader {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 40vh;
+        color: #666178;
+    }
+}

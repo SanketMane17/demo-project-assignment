@@ -1,0 +1,56 @@
+.app__filters {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    padding: 10px;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        label {
+            color: #a2a2bd;
+            font-weight: bold;
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+
+        input,
+        select {
+            border-top-style: hidden;
+            border-right-style: hidden;
+            border-left-style: hidden;
+            border-color: #e2e2ec;
+            padding: 5px 3px;
+            font-weight: bold;
+            font-family: poppins;
+            color: #a2a2bd;
+            background-color: #eeeef596;
+
+            &:focus {
+                outline: none;
+            }
+
+            &::placeholder {
+                color: #a2a2bd;
+            }
+        }
+    }
+
+    @media screen and (min-width: 1125px) {
+        grid-template-columns: auto auto auto auto auto;
+    }
+
+    @media screen and (max-width: 825px) {
+        grid-template-columns: auto auto auto;
+    }
+
+    @media screen and (max-width: 660px) {
+        grid-template-columns: auto auto;
+    }
+
+    @media screen and (max-width: 485px) {
+        grid-template-columns: auto;
+    }
+}

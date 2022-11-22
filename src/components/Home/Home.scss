@@ -1,0 +1,53 @@
+.app__home {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.app__header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+    font-family: poppins;
+
+    p {
+        font-weight: bold;
+        color: #616179;
+        font-size: 18px;
+    }
+
+    div {
+        display: flex;
+        align-items: center;
+
+        :nth-child(1) {
+            background-color: #0404b8;
+            border: none;
+            color: white;
+            padding: 7px 10px;
+            margin-right: 5px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+        
+        :nth-child(2) {
+            background:none;
+            border: none;
+            padding: 7px 10px;
+            color: #0404b8;
+            cursor: pointer;
+            font-size: 15px;
+        }
+    }
+}
+
+.app__body {
+    min-height: 70vh;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    .tag {
+        padding: 10px;
+        font-size: 1rem;
+        color: #6a618c;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,19 @@
+.app__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    font-family: poppins;
+    color: #535360;
+
+    p {
+        font-size: 22px;
+        font-weight: bold;
+    }
+}
+
+.app__user {
+    display: flex;
+    align-items: center;
+}
